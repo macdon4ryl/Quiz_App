@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quizbgd"
+        android:paddingBottom="32dp"
+        tools:context=".QuizActivity">
+
+        <LinearLayout
+            android:id="@+id/quiz_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:paddingBottom="72dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="Select the correct option"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/aclonica" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:text="1.  Which of this is important in every Android project?"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:fontFamily="@font/artifika" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer_question_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="AndroidManifest.xml"
+                    android:textColor="@color/colorWhite" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="Builder.xml"
+                    android:textColor="@color/colorWhite" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="Bit/"
+                    android:textColor="@color/colorWhite" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="Gradle.java"
+                    android:textColor="@color/colorWhite" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="2.  Which is a required folder when Android project is created."
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:fontFamily="@font/artifika" />
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="bin"
+                    android:textColor="@color/colorWhite" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="build/"
+                    android:textColor="@color/colorWhite" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="build"
+                    android:textColor="@color/colorWhite" />
+
+                <RadioButton
+                    android:id="@+id/answer_question_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="bin/"
+                    android:textColor="@color/colorWhite" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="3.  Which is NOT state of an activity?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/artifika" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:buttonTint="@color/colorWhite"
+                        android:padding="4dp"
+                        android:text="Stopped"
+                        android:textColor="@color/colorWhite" />
+
+                    <RadioButton
+                        android:id="@+id/answer_question_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:buttonTint="@color/colorWhite"
+                        android:padding="4dp"
+                        android:text="Stored"
+                        android:textColor="@color/colorWhite" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:buttonTint="@color/colorWhite"
+                        android:padding="4dp"
+                        android:text="Paused"
+                        android:textColor="@color/colorWhite" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:buttonTint="@color/colorWhite"
+                        android:padding="4dp"
+                        android:text="Active"
+                        android:textColor="@color/colorWhite" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="4.  Paused is used..."
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/artifika" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:buttonTint="@color/colorWhite"
+                        android:padding="4dp"
+                        android:text="If the activity is not visible"
+                        android:textColor="@color/colorWhite" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:buttonTint="@color/colorWhite"
+                        android:padding="4dp"
+                        android:text="If the activity is at the foreground and visible"
+                        android:textColor="@color/colorWhite" />
+
+                    <RadioButton
+                        android:id="@+id/answer_question_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:buttonTint="@color/colorWhite"
+                        android:padding="4dp"
+                        android:text="If the activity is at the background and still visible"
+                        android:textColor="@color/colorWhite" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:buttonTint="@color/colorWhite"
+                        android:padding="4dp"
+                        android:text="If the activity is at the foreground"
+                        android:textColor="@color/colorWhite" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="5.  Select three(3) component which are under the Android application."
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/artifika" />
+
+                <CheckBox
+                    android:id="@+id/answer_question_five_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="Resource externalization"
+                    android:textColor="@color/colorWhite" />
+
+                <CheckBox
+                    android:id="@+id/answer_question_five_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="Content providers"
+                    android:textColor="@color/colorWhite" />
+
+                <CheckBox
+                    android:id="@+id/answer_question_five_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="Notifications"
+                    android:textColor="@color/colorWhite" />
+
+                <CheckBox
+                    android:id="@+id/answer_question_five_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="Applications"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="6.  What are three different states in which a process is based?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/artifika" />
+
+                <CheckBox
+                    android:id="@+id/answer_question_six_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="foreground activity"
+                    android:textColor="@color/colorWhite" />
+
+                <CheckBox
+                    android:id="@+id/answer_question_six_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="running activity"
+                    android:textColor="@color/colorWhite" />
+
+                <CheckBox
+                    android:id="@+id/answer_question_six_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="empty process"
+                    android:textColor="@color/colorWhite" />
+
+                <CheckBox
+                    android:id="@+id/answer_question_six_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:padding="4dp"
+                    android:text="visible activity"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="24dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginStart="48dp"
+                android:background="@drawable/button"
+                android:onClick="previous_page"
+                android:padding="16dp"
+                android:text="BACK" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/button"
+                android:onClick="next_page"
+                android:text="NEXT" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quizbgd"
+    tools:context=".QuizTwoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:text="Select the correct option"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/aclonica" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="7.  What does the acronym ADB stands for?"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            app:fontFamily="@font/artifika" />
+
+        <EditText
+            android:id="@+id/question_seven_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/colorWhite"
+            android:inputType="textCapWords"
+            android:paddingRight="16dp"
+            android:textColor="@color/colorWhite" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="8.  Select from the options the types of views used in the image below:"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                app:fontFamily="@font/artifika" />
+
+            <ImageView
+                android:layout_width="264dp"
+                android:layout_height="264dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/imgquiz" />
+
+            <CheckBox
+                android:id="@+id/answer_question_eight_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:buttonTint="@color/colorWhite"
+                android:padding="4dp"
+                android:text="PictureView"
+                android:textColor="@color/colorWhite" />
+
+            <CheckBox
+                android:id="@+id/answer_question_eight_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:buttonTint="@color/colorWhite"
+                android:padding="4dp"
+                android:text="ImageView"
+                android:textColor="@color/colorWhite" />
+
+            <CheckBox
+                android:id="@+id/answer_question_eight_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:buttonTint="@color/colorWhite"
+                android:padding="4dp"
+                android:text="EditView"
+                android:textColor="@color/colorWhite" />
+
+            <CheckBox
+                android:id="@+id/answer_question_eight_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:buttonTint="@color/colorWhite"
+                android:padding="4dp"
+                android:text="TextView"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="9.  What does the acronym SDK stands for"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            app:fontFamily="@font/artifika" />
+
+        <EditText
+            android:id="@+id/answer_question_nine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/colorWhite"
+            android:inputType="textCapWords"
+            android:paddingRight="16dp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="10.  Write the full meaning of AVD"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp"
+            app:fontFamily="@font/artifika" />
+
+        <EditText
+            android:id="@+id/answer_question_ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="16dp"
+            android:buttonTint="@color/colorWhite"
+            android:inputType="textCapWords"
+            android:paddingRight="16dp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/colorWhite" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginStart="48dp"
+                android:background="@drawable/button"
+                android:onClick="previous_page_two"
+                android:padding="16dp"
+                android:text="BACK" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginEnd="48dp"
+                android:background="@drawable/button"
+                android:onClick="submit_quiz"
+                android:padding="16dp"
+                android:text="SUBMIT QUIZ" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
